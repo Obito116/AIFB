@@ -67,7 +67,7 @@ if model is None:
 note_text = st.text_area(
     "Your note",
     height=140,
-    placeholder="Example: Fix the login bug in Modun before Friday demo.",
+    placeholder="Example: Quarterly client report draft due Wednesday.",
 )
 
 use_llm = st.checkbox(
