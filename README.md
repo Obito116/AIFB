@@ -1,4 +1,4 @@
-# AIFB Final Project — Memory Lifecycle Classifier
+# AIFB Final Project — Productivity Note Classifier
 
 > **Should I keep this note?** A classifier that tags personal notes as
 > *ephemeral*, *actionable*, or *archive-worthy*, with an optional LLM

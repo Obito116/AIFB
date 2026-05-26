@@ -32,7 +32,7 @@ MODEL_PATH = ROOT / "models" / "classifier.pkl"
 
 
 st.set_page_config(
-    page_title="Should I Keep This Note?",
+    page_title="Productivity Note Classifier",
     page_icon=":card_file_box:",
     layout="centered",
 )
@@ -48,9 +48,9 @@ def load_model():
 model = load_model()
 
 
-st.title("Should I Keep This Note?")
+st.title("Productivity Note Classifier")
 st.markdown(
-    "A memory lifecycle classifier. Paste any personal note and the model will "
+    "Triage knowledge worker notes by lifecycle. Paste any work-related note and the model will "
     "tell you whether it's *ephemeral*, *actionable*, or *archive-worthy* "
     "and explain why."
 )
