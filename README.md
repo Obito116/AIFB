@@ -1,5 +1,13 @@
 # AIFB Final Project — Productivity Note Classifier
 
+> **Live demo:** [aifb-classifier.streamlit.app](https://aifb-classifier.streamlit.app)
+>
+> ![App home screen](docs/screenshots/01-home.png)
+>
+> | | |
+> |---|---|
+> | ![Classification result](docs/screenshots/02-classification.png) | ![LLM explanation](docs/screenshots/03-explanation.png) |
+
 > **Should I keep this note?** A classifier that tags personal notes as
 > *ephemeral*, *actionable*, or *archive-worthy*, with an optional LLM
 > explanation layer.
